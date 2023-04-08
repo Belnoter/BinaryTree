@@ -118,14 +118,14 @@ public class Main {
         Node fourthTwo = new Node(1);
         Node fifthTwo = new Node(2);
         Node sixthTwo = new Node(6);
-      //  Node seventhTwo = new Node(7);
+        Node seventhTwo = new Node(7);
 
         rootTwo.left = secondTwo;
         rootTwo.right = thirdTwo;
         secondTwo.left = fourthTwo;
         secondTwo.right = fifthTwo;
         thirdTwo.left = sixthTwo;
-       // thirdTwo.right = seventhTwo;
+        thirdTwo.right = seventhTwo;
 
 
       iterativeBts(root);
